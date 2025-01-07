@@ -236,17 +236,16 @@ btf.addGlobalFn('pjaxComplete', () => {
           if (response.ok) {
             // 如果页面存在，直接跳转
             window.location.href = newPath;
-          } else {
+          } else if (response.status === 404) {
             // 如果页面不存在，跳转到中文首页
             window.location.href = '/';
           }
         })
         .catch(() => {
-          // 发生错误时跳转到中文首页
-          window.location.href = '/';
+          // 网络错误等其他问题交由默认行为处理
+          console.error('Network error occurred.');
         });
     } else {
-      // 已经在中文页面了，不需要改变
       console.log('Already on the Chinese page.');
     }
   } else if (targetLang === 'en') {
@@ -261,14 +260,14 @@ btf.addGlobalFn('pjaxComplete', () => {
           if (response.ok) {
             // 如果页面存在，直接跳转
             window.location.href = newPath;
-          } else {
-            // 如果页面不存在，跳转到 404 页面
-            window.location.href = '/en/404.html';
+          } else if (response.status === 404) {
+            // 如果页面不存在，跳转到 no-match 页面
+            window.location.href = '/en/no-match/';
           }
         })
         .catch(() => {
-          // 发生错误时跳转到 404 页面
-          window.location.href = '/en/404.html';
+          // 网络错误等其他问题交由默认行为处理
+          console.error('Network error occurred.');
         });
     } else {
       // 已经在英文页面了，不需要改变

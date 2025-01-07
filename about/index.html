@@ -189,7 +189,7 @@ btf.addGlobalFn('pjaxComplete', () => {
         </li>
       
     </ul>
-  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Website Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article Count :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">Total Word Count :</div><div class="item-count">939</div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-01-07T09:08:20.185Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By Damon</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/en/js/utils.js"></script><script src="/en/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script>function switchLanguage(targetLang) {
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Website Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article Count :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">Total Word Count :</div><div class="item-count">939</div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-01-07T14:00:29.835Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By Damon</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/en/js/utils.js"></script><script src="/en/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script>function switchLanguage(targetLang) {
   const currentPath = window.location.pathname;
   let newPath;
 
@@ -205,17 +205,16 @@ btf.addGlobalFn('pjaxComplete', () => {
           if (response.ok) {
             // 如果页面存在，直接跳转
             window.location.href = newPath;
-          } else {
+          } else if (response.status === 404) {
             // 如果页面不存在，跳转到中文首页
             window.location.href = '/';
           }
         })
         .catch(() => {
-          // 发生错误时跳转到中文首页
-          window.location.href = '/';
+          // 网络错误等其他问题交由默认行为处理
+          console.error('Network error occurred.');
         });
     } else {
-      // 已经在中文页面了，不需要改变
       console.log('Already on the Chinese page.');
     }
   } else if (targetLang === 'en') {
@@ -230,14 +229,14 @@ btf.addGlobalFn('pjaxComplete', () => {
           if (response.ok) {
             // 如果页面存在，直接跳转
             window.location.href = newPath;
-          } else {
-            // 如果页面不存在，跳转到 404 页面
-            window.location.href = '/en/404.html';
+          } else if (response.status === 404) {
+            // 如果页面不存在，跳转到 no-match 页面
+            window.location.href = '/en/no-match/';
           }
         })
         .catch(() => {
-          // 发生错误时跳转到 404 页面
-          window.location.href = '/en/404.html';
+          // 网络错误等其他问题交由默认行为处理
+          console.error('Network error occurred.');
         });
     } else {
       // 已经在英文页面了，不需要改变
