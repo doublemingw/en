@@ -4,7 +4,7 @@
   <url>
     <loc>http://blog.dmindie.com/en/p/blog-solution-process-overview/</loc>
     
-    <lastmod>2025-01-11</lastmod>
+    <lastmod>2025-01-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -104,7 +104,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/elog/</loc>
+    <loc>http://blog.dmindie.com/en/tags/Elog/</loc>
     <lastmod>2025-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -127,7 +127,7 @@
 
   
   <url>
-    <loc>http://blog.dmindie.com/en/categories/product-development/</loc>
+    <loc>http://blog.dmindie.com/en/categories/building-products/</loc>
     <lastmod>2025-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
