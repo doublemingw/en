@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.dmindie.com/en/p/hexo-build-solution-process/</loc>
+    <loc>https://blog.dmindie.com/en/p/hexo-build-solution-process/</loc>
     
     <lastmod>2025-01-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/p/hexo-setup-deploy/</loc>
+    <loc>https://blog.dmindie.com/en/p/hexo-setup-deploy/</loc>
     
     <lastmod>2025-01-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/p/build-products-pm-indiehacker/</loc>
+    <loc>https://blog.dmindie.com/en/p/build-products-pm-indiehacker/</loc>
     
     <lastmod>2025-01-20</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/p/start-indie-hacker-journey/</loc>
+    <loc>https://blog.dmindie.com/en/p/start-indie-hacker-journey/</loc>
     
     <lastmod>2025-01-10</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/link/</loc>
+    <loc>https://blog.dmindie.com/en/link/</loc>
     
     <lastmod>2025-01-09</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/</loc>
+    <loc>https://blog.dmindie.com/en/tags/</loc>
     
     <lastmod>2025-01-09</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/categories/</loc>
+    <loc>https://blog.dmindie.com/en/categories/</loc>
     
     <lastmod>2025-01-09</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/about/</loc>
+    <loc>https://blog.dmindie.com/en/about/</loc>
     
     <lastmod>2025-01-09</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/no-match</loc>
+    <loc>https://blog.dmindie.com/en/no-match</loc>
     
     <lastmod>2025-01-08</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/404</loc>
+    <loc>https://blog.dmindie.com/en/404</loc>
     
     <lastmod>2025-01-07</lastmod>
     
@@ -93,7 +93,7 @@
   
 
   <url>
-    <loc>http://blog.dmindie.com/en</loc>
+    <loc>https://blog.dmindie.com/en</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -101,63 +101,63 @@
 
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/blog/</loc>
+    <loc>https://blog.dmindie.com/en/tags/blog/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/build-in-public/</loc>
+    <loc>https://blog.dmindie.com/en/tags/build-in-public/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/github/</loc>
+    <loc>https://blog.dmindie.com/en/tags/github/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/cloudflare/</loc>
+    <loc>https://blog.dmindie.com/en/tags/cloudflare/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/notion/</loc>
+    <loc>https://blog.dmindie.com/en/tags/notion/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/hexo/</loc>
+    <loc>https://blog.dmindie.com/en/tags/hexo/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/elog/</loc>
+    <loc>https://blog.dmindie.com/en/tags/elog/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/independent-developer/</loc>
+    <loc>https://blog.dmindie.com/en/tags/independent-developer/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/Indiehacker/</loc>
+    <loc>https://blog.dmindie.com/en/tags/Indiehacker/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -166,21 +166,21 @@
 
   
   <url>
-    <loc>http://blog.dmindie.com/en/categories/building-products/</loc>
+    <loc>https://blog.dmindie.com/en/categories/building-products/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/categories/indiehacker/</loc>
+    <loc>https://blog.dmindie.com/en/categories/building-products/method/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/categories/building-products/method/</loc>
+    <loc>https://blog.dmindie.com/en/categories/indiehacker/</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
