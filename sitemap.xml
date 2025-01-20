@@ -4,7 +4,16 @@
   <url>
     <loc>http://blog.dmindie.com/en/p/hexo-solution-process-overview/</loc>
     
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.dmindie.com/en/p/build-products-pm-indiehacker/</loc>
+    
+    <lastmod>2025-01-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,50 +85,64 @@
 
   <url>
     <loc>http://blog.dmindie.com/en</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/blog/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <loc>http://blog.dmindie.com/en/tags/Blog/</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/notion/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <loc>http://blog.dmindie.com/en/tags/Notion/</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.dmindie.com/en/tags/hexo/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <loc>http://blog.dmindie.com/en/tags/Hexo/</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.dmindie.com/en/tags/Elog/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.dmindie.com/en/tags/github/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.dmindie.com/en/tags/cloudflare/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.dmindie.com/en/tags/Independent-Developer/</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.dmindie.com/en/tags/Indiehacker/</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -127,15 +150,22 @@
 
   
   <url>
-    <loc>http://blog.dmindie.com/en/categories/building-products/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <loc>http://blog.dmindie.com/en/categories/Building-Products/</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.dmindie.com/en/categories/indiehacker/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.dmindie.com/en/categories/Building-Products/Method/</loc>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
